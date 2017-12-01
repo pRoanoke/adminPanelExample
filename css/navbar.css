@@ -1,0 +1,192 @@
+/*Navbar*/
+.navbar {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.navbar-fixed-top {
+    top: -10px;
+}
+
+#menu-toggle {
+    text-decoration: none;
+    float: left;
+    color: #919191;
+    padding-right: 15px;
+    margin: 5px 0 0 -10px;
+}
+
+.brand-name {
+    font-family: "Courier 10 Pitch", cursive;
+}
+
+.brand-name.first {
+    color: #767676;
+    font-size: 24px;
+}
+
+.brand-name.second {
+    color: #298ca8;
+    font-size: 28px;
+}
+
+.navbar-brand:last-child {
+    font-size: xx-large;
+    border-left: 1px solid #e3e3e3;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav li a {
+    height: 50px;
+    margin: 4px -2px 0 0;
+    color: #767676;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    width: 48px;
+    height: 45px;
+    border-left: 1px solid #e3e3e3;
+}
+
+.navbar-nav li a:hover {
+    background: none;
+}
+
+.notification:before {
+    content: "1";
+    position: absolute;
+    background: rgb(255, 86, 99);
+    border-radius: 20%;
+    height: 10px;
+    top: 15px;
+    right: 30px;
+    width: 12px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 1rem;
+    color: white;
+
+}
+
+/*Sidebar-menu*/
+.sidebar-nav {
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    width: 225px;
+}
+
+.sidebar-nav li > a {
+    color: rgba(227, 227, 227, 0.77);
+    display: block;
+    text-decoration: none;
+    border-top: 1px solid #595959;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.sidebar-nav li a i:before {
+    position: absolute;
+    left: 190px;
+    bottom: 12px;
+    color: #e3e3e3;
+    text-align: center;
+    width: 10px;
+}
+
+.sidebar-nav li a span:before, .content-header i:before {
+    color: #e3e3e3;
+    text-align: center;
+    width: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a.active {
+    color: #e3e3e3;
+    background: #767676;
+    text-decoration: none;
+}
+
+.sidebar-nav li a.active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+    background: rgb(58, 58, 58);
+}
+
+/*User info*/
+.sidebar-nav .sidebar-brand {
+    display: block;
+    height: 70px;
+}
+
+.sidebar-nav > .sidebar-brand img {
+    margin: 0 5px 10px;
+    width: 50px;
+}
+
+.sidebar-nav > .sidebar-brand .user {
+    display: inline-block;
+    margin-top: 20px;
+    color: #e3e3e3;
+}
+
+.sidebar-brand .name {
+    font-family: "Abyssinica SIL", cursive;
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar-brand .type {
+    padding-left: 2px;
+    font-family: "Abyssinica SIL", serif;
+    font-size: 11px;
+}
+
+/**/
+
+/*Undermenu*/
+
+.sidebar-nav #dropdown {
+    padding-left: 0;
+    display: none;
+    list-style-type: none;
+    font-size: smaller;
+}
+
+.sidebar-nav #dropdown a {
+    background: #464646;
+    padding: 10px 15px;
+    height: 40px;
+}
+
+.sidebar-nav #dropdown li a span:before {
+    position: relative;
+    left: -10px;
+}
+
+.sidebar-nav #dropdown li a:focus span {
+    position: relative;
+    left: 10px;
+    color: #fff;
+}
+
+.sidebar-nav #dropdown li a i:before {
+    position: relative;
+    left: 90px;
+    bottom: -1px;
+}
+
+/**/
+
+
+

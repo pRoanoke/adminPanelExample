@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="css/navbar.css">
+    <link rel="stylesheet"
+          href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="css/content.css">
+
+
+</head>
+<body>
+<!--===================
+Header
+=======================-->
+<div id="wrapper">
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <a id="menu-toggle" href="#" class="btn-menu toggle">
+                        <i class="fa fa-outdent" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="navbar-brand">
+                    <span class="brand-name first">oc</span><span
+                        class="brand-name second">Store</span>
+                </div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="notification"><a href="#notifications"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#help"><i class="fa fa-life-ring fa-fw" aria-hidden="true"></i></a></li>
+                    <li><a href="#logout"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i></a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <nav id="spy">
+            <ul class="sidebar-nav nav">
+                <li class="sidebar-brand">
+                    <img src="./img/avatar.png" alt="avatar">
+                    <div class="user">
+                        <div class="name">John Doe</div>
+                        <div class="type">Administrator</div>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="#anch1">
+                        <span class="fa fa-tachometer" aria-hidden="true">Панель управления</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-button"><span class="fa fa-tags" aria-hidden="true">Каталог</span><i
+                            class="fa fa-angle-right dropdown-icon" aria-hidden="true"></i></a>
+                    <ul id="dropdown">
+                        <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true">Категории</span></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-angle-double-right active"
+                                              aria-hidden="true">Товары</span></a></li>
+                        <li><a href="#"><span class="fa fa-angle-double-right"
+                                              aria-hidden="true">Переодические платежи</span></a></li>
+                        <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true">Фильтры</span></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true">Аттрибуты</span><i
+                                class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true">Опции</span></a></li>
+                        <li><a href="#"><span class="fa fa-angle-double-right"
+                                              aria-hidden="true">Производители</span></a></li>
+                        <li><a href="#"><span class="fa fa-angle-double-right"
+                                              aria-hidden="true">Файлы для скачивания</span></a></li>
+                        <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true">Отзывы</span></a></li>
+                        <li><a href="#"><span class="fa fa-angle-double-right">Статьи</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#anch3">
+                        <span class="fa fa-puzzle-piece solo">Дополнения<i class="fa fa-angle-right"
+                                                                           aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch4">
+                        <span class="fa fa-television solo">Дизайн<i class="fa fa-angle-right"
+                                                                     aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch4">
+                        <span class="fa fa-shopping-cart solo">Продажи<i class="fa fa-angle-right"
+                                                                         aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch4">
+                        <span class="fa fa-user solo">Покупатели<i class="fa fa-angle-right"
+                                                                   aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch4">
+                        <span class="fa fa-share-alt solo">Маркетинг<i class="fa fa-angle-right"
+                                                                       aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch4">
+                        <span class="fa fa-cog solo">Система<i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <div class="col-xs-6 col-sm-6 col-md-6 left ">
+                    <h2 class="header-navigation">Товары</h2>
+                    <p class="header-navigation"><a class="selected" href="">Главная</a> / <a href="">Товары</a></p>
+                </div>
+                <div class="right ">
+                    <button type="button" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-default"><i class="fa fa-files-o" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div id="page-content-wrapper">
+                    <div class="page-content">
+                        <div class="content-header">
+                            <i class="fa fa-list" aria-hidden="true"></i>Список товаров
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 search">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="name">Наименование:</label>
+                                                        <input type="text" name="name" id="name"
+                                                               class="form-control" placeholder="Наименование:">
+                                                        <hr>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="price">Цена:</label>
+                                                        <input type="text" name="price" id="price"
+                                                               class="form-control" placeholder="Цена:">
+                                                        <hr>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="status">Статус:</label>
+                                                        <select class="form-control" name="status" id="status"></select>
+                                                        <hr>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="model">Модель:</label>
+                                                        <input type="text" name="model" id="model"
+                                                               class="form-control" placeholder="First Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="count">Количество:</label>
+                                                        <input type="text" name="count" id="count"
+                                                               class="form-control" placeholder="Количество:">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="category">Категория:</label>
+                                                        <select class="form-control" name="category"
+                                                                id="category"></select>
+                                                    </div>
+                                                </div>
+                                                <div class="filter-button">
+                                                    <button class="btn btn-primary"><i class="fa fa-search"
+                                                                                       aria-hidden="true"></i>Фильтр
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 table">
+                                    <table class="table table-bordered table-condensed">
+                                        <tbody>
+                                        <tr>
+                                            <th><input type="checkbox"></th>
+                                            <th width="105px">Изображениe</th>
+                                            <th width="114px">Наименования<br> товара<i class="fa fa-angle-down"
+                                                                                        aria-hidden="true"></i></th>
+                                            <th width="70px">Модель</th>
+                                            <th width="76px">Цена на сайте</th>
+                                            <th width="174px">Категория</th>
+                                            <th width="92px">Количество</th>
+                                            <th width="77px">Статус</th>
+                                            <th>Действие</th>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>
+                                                <div class="preview-img"><img src="./img/canon.jpg" alt="iPhone"></div>
+                                            </td>
+                                            <td>Canon EOS 5D</td>
+                                            <td>Товар 3</td>
+                                            <td><s>100.0000</s>
+                                                <p style="color:#ff9499">80.0000</p></td>
+                                            <td><p>Камеры<br>
+                                                Компьютеры</p></td>
+                                            <td>
+                                                <div class="count">
+                                                    7
+                                                </div>
+                                            </td>
+                                            <td>Включено</td>
+                                            <td>
+                                                <button class="btn btn-primary"><i class="fa fa-pencil"
+                                                                                   aria-hidden="true"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>
+                                                <div class="preview-img"><img src="./img/hp.jpg" alt="iPhone"></div>
+                                            </td>
+                                            <td>HP LP3065</td>
+                                            <td>Товар 21</td>
+                                            <td>100.0000</td>
+                                            <td><p>Компьютеры<br>
+                                                Ноутбуки</p></td>
+                                            <td>
+                                                <div class="count">
+                                                    1000
+                                                </div>
+                                            </td>
+                                            <td>Включено</td>
+                                            <td>
+                                                <button class="btn btn-primary"><i class="fa fa-pencil"
+                                                                                   aria-hidden="true"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>
+                                                <div class="preview-img"><img src="./img/htc.jpg" alt="iPhone"></div>
+                                            </td>
+                                            <td>HTC Touch HD</td>
+                                            <td>Товар 1</td>
+                                            <td>100.0000</td>
+                                            <td><p>Компьютеры<br>
+                                                Телефоны и PDA</p></td>
+                                            <td>
+                                                <div class="count">
+                                                    939
+                                                </div>
+                                            </td>
+                                            <td>Включено</td>
+                                            <td>
+                                                <button class="btn btn-primary"><i class="fa fa-pencil"
+                                                                                   aria-hidden="true"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>
+                                                <div class="preview-img"><img src="./img/imac.jpeg" alt="iPhone"></div>
+                                            </td>
+                                            <td>iMac</td>
+                                            <td>Товар 14</td>
+                                            <td>100.0000</td>
+                                            <td><p>Компьютеры > Mac</p>
+                                            </td>
+                                            <td>
+                                                <div class="count">
+                                                    937
+                                                </div>
+                                            </td>
+                                            <td>Включено</td>
+                                            <td>
+                                                <button class="btn btn-primary"><i class="fa fa-pencil"
+                                                                                   aria-hidden="true"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>
+                                                <div class="preview-img"><img src="./img/iphone.jpg" alt="iPhone"></div>
+                                            </td>
+                                            <td>iPhone</td>
+                                            <td>Товар 11</td>
+                                            <td>101.0000</td>
+                                            <td><p>Компьютеры<br>
+                                                Телефоны и PDA</p>
+                                            </td>
+                                            <td>
+                                                <div class="count">
+                                                    970
+                                                </div>
+                                            </td>
+                                            <td>Включено</td>
+                                            <td>
+                                                <button class="btn btn-primary"><i class="fa fa-pencil"
+                                                                                   aria-hidden="true"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                <!-- jQuery CDN -->
+                <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+                <!-- Bootstrap Js CDN -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <!--Our Js-->
+                <script src="js/main.js"></script>
+</body>
+</html>
